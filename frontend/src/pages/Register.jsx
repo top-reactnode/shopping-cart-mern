@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
-import Layout from "../layout/Layout";
+import { useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
+
+import Layout from "../layout/Layout";
 import { registerSchema } from "../schema";
 import InputField from "../components/inputForm/InputField";
-import { useNavigate } from "react-router-dom";
 import { useAppStore } from "../../store/appStore";
 
 const initialValues = {

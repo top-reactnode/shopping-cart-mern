@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Layout from "../layout/Layout";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
+import Layout from "../layout/Layout";
 import { useAppStore } from "../../store/appStore";
 
 const DetailPage = () => {

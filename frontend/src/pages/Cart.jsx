@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { PiSmileySadFill } from "react-icons/pi";
+
 import Layout from "./../layout/Layout";
 import CartCard from "../components/CartCard";
 import { useAppStore } from "../../store/appStore";
-import { useNavigate } from "react-router-dom";
-import { PiSmileySadFill } from "react-icons/pi";
 
 const Cart = () => {
   const navigate = useNavigate();

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Layout from "../layout/Layout";
 import axios from "axios";
+import Layout from "../layout/Layout";
 import ProductCard from "../components/ProductCard";
 
 const Hero = () => {
